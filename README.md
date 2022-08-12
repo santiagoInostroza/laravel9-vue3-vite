@@ -5,6 +5,15 @@
 <p>Este proyecto contiene las configuraciones iniciales para que puedas empezar tu aplicación</p>
 
 <br>
+<h2>Requisitos</h2>
+<p> 
+    -Docker
+    -Git
+</p>
+<br>
+
+
+<br>
 <h2>Paso a paso de la instalación del proyecto</h2>
 <br>
 
@@ -43,6 +52,10 @@
     -w /var/www/html \
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
+    
+<h4>Crear atajo para sail</h4>
+
+    alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
     
 
 <h4>Correr Sail</h4>
