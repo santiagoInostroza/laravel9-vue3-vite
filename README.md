@@ -20,9 +20,9 @@
     cd laravel9-vue3-vite/ 
 
 
-crear archivo .env
+copiar archivo .env
 
-    touch .env
+    cp .env.example .env
 
 Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:
 
