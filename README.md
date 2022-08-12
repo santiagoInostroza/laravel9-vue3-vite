@@ -5,11 +5,12 @@
 <p>Este proyecto contiene las configuraciones iniciales para que puedas empezar tu aplicación</p>
 
 <br>
+
 <h2>Requisitos</h2>
-<p> 
-    -Docker
-    -Git
-</p>
+<ul> 
+    <li>Docker</li>
+    <li>Git</li>
+</ul>
 <br>
 
 
@@ -18,7 +19,6 @@
 <br>
 
 <p>Abre la terminal en la carpeta donde guardaras tu proyecto y copia los siguientes comandos</p>
-<p>debes tener Git instalado</p>
 
 <br>
 <h4>Clonar proyecto(SSH)</h4>
