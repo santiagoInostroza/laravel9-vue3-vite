@@ -44,7 +44,12 @@
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
     
-    
+
+<h4>Correr Sail</h4>
+
+    sail up
+
+
 <h4>copiar archivo .env</h4>
 
 
@@ -54,10 +59,7 @@
 <h4>crear llave de la aplicación</h4>
 
     sail artisan key:generate
-    
-<h4>Correr Sail</h4>
-
-    sail up
+   
     
     
 <h4>Ejecutar los siguientes comandos</h4>
