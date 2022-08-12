@@ -33,12 +33,6 @@
 <h4>Abre vs code</h4>
 
     code .
-
-
-<h4>copiar archivo .env</h4>
-
-
-    cp .env.example .env
     
 
 <h4>Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:</h4>
@@ -50,6 +44,17 @@
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
     
+    
+<h4>copiar archivo .env</h4>
+
+
+    cp .env.example .env
+    
+    
+<h4>crear llave de la aplicación</h4>
+
+    sail artisan key:generate
+    
 <h4>Correr Sail</h4>
 
     sail up
@@ -59,8 +64,6 @@
 
 
     sail npm install
-    
-    sail artisan key:generate
    
     sail npm run dev
     
