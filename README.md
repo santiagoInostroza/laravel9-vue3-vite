@@ -1,9 +1,9 @@
 Instalacion
 
 - crear archivo .env
-    touch .en
+    touch .env
 
-Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:
+- Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:
 
     docker run --rm \
     -u "$(id -u):$(id -g)" \
@@ -12,19 +12,18 @@ Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para 
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
     
-  
+-ejecutar
     sail npm install
-
     sail artisan key:generate
-
     sail up
-
     sail npm run dev
+    
 
-editar archivo hot de carpeta public:
+- editar archivo hot de carpeta public:
     de'http://0.0.0.0:5173' a 'http://localhost:5173'
 
 abrir localhost
+    'http://localhost:5173'
     
     
     
