@@ -1,11 +1,30 @@
-comando para instalar sail en el proyecto
+Instalacion
 
-docker run --rm \
+- crear archivo .env
+    touch .en
+
+Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:
+
+    docker run --rm \
     -u "$(id -u):$(id -g)" \
     -v $(pwd):/var/www/html \
     -w /var/www/html \
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
+    
+  
+    sail npm install
+
+    sail artisan key:generate
+
+    sail up
+
+    sail npm run dev
+
+editar archivo hot de carpeta public:
+    de'http://0.0.0.0:5173' a 'http://localhost:5173'
+
+abrir localhost
     
     
     
