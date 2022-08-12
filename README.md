@@ -1,12 +1,12 @@
 <h1>Laravel 9 Vue 3 Vite</h1>
-
+<br><br>
 
 
 <p>Este proyecto contiene las configuraciones iniciales para que puedas empezar tu aplicación</p>
 
-
+<br>
 <h2>Paso a paso de la instalación del proyecto</h2>
-
+<br>
 
 <p>Abre la terminal en la carpeta donde guardaras tu proyecto y copia los siguientes comandos</p>
 <p>debes tener Git instalado</p>
@@ -50,32 +50,31 @@ Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para 
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
     
+<h4>Correr Sail</h4>
+
+    sail up
     
-Ejecutar los siguientes comandos
+    
+<h4>Ejecutar los siguientes comandos</h4>
 
 
     sail npm install
     
     sail artisan key:generate
-    
-    sail up
    
     sail npm run dev
     
 
-Editar archivo hot de carpeta public:
+<h4>Editar archivo hot de carpeta public:</h4>
     
     
     de'http://0.0.0.0:5173' a 'http://localhost:5173'
 
 
-Abrir localhost
+</h4>Abrir localhost</h4>
 
 
-    'http://localhost:5173'
-    
-    
-    
+    'http://localhost'
     
     
 
