@@ -53,14 +53,11 @@
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
     
-<h4>Crea atajo para sail</h4>
-
-    alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
     
 
 <h4>Corre Sail</h4>
 
-    sail up
+    ./vendor/bin/sail up
 
 
 <h4>copia archivo .env</h4>
@@ -71,16 +68,16 @@
     
 <h4>crea llave de la aplicación</h4>
 
-    sail artisan key:generate
+    ./vendor/bin/sail artisan key:generate
    
     
     
 <h4>Ejecuta los siguientes comandos</h4>
 
 
-    sail npm install
+    ./vendor/bin/sail npm install
    
-    sail npm run dev
+    ./vendor/bin/sail npm run dev
     
 
 <h4>Edita archivo hot de carpeta public:</h4>
