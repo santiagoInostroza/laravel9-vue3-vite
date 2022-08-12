@@ -76,10 +76,8 @@
     de'http://0.0.0.0:5173' a 'http://localhost:5173'
 
 
-<h4>Abrir localhost</h4>
+<h4>Finalmente <a href="http://localhost" >Abrir localhost</a></h4>
 
-
-     <a href="http://localhost" >localhost </a>
     
     
 
