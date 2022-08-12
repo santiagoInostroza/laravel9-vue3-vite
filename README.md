@@ -1,4 +1,15 @@
-Instalacion
+<h1>Proyecto Laravel 9 Vue 3 Vite</h1>
+
+<h2>Paso a paso de la instalaciòn del proyecto</h2>
+
+Clonar proyecto(SSH)
+
+    git clone git@github.com:santiagoInostroza/laravel9-vue3-vite.git
+    
+o HTTPS
+
+       
+
 
 crear archivo .env
 
