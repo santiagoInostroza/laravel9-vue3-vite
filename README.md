@@ -21,13 +21,13 @@
 <p>Abre la terminal en la carpeta donde guardaras tu proyecto y copia los siguientes comandos</p>
 
 <br>
-<h4>Clonar proyecto(SSH)</h4>
+<h4>Clonar proyecto con SSH</h4>
 
 
     git clone git@github.com:santiagoInostroza/laravel9-vue3-vite.git
     
     
-<h4>o HTTPS</h4>
+<h4>o con HTTPS</h4>
 
 
      https://github.com/santiagoInostroza/laravel9-vue3-vite.git
