@@ -33,7 +33,7 @@
      https://github.com/santiagoInostroza/laravel9-vue3-vite.git
 
 
-<h4>ingresar a la carpeta</h4>
+<h4>ingresa a la carpeta</h4>
 
 
     cd laravel9-vue3-vite/ 
@@ -53,29 +53,29 @@
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
     
-<h4>Crear atajo para sail</h4>
+<h4>Crea atajo para sail</h4>
 
     alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
     
 
-<h4>Correr Sail</h4>
+<h4>Corre Sail</h4>
 
     sail up
 
 
-<h4>copiar archivo .env</h4>
+<h4>copia archivo .env</h4>
 
 
     cp .env.example .env
     
     
-<h4>crear llave de la aplicación</h4>
+<h4>crea llave de la aplicación</h4>
 
     sail artisan key:generate
    
     
     
-<h4>Ejecutar los siguientes comandos</h4>
+<h4>Ejecuta los siguientes comandos</h4>
 
 
     sail npm install
@@ -83,13 +83,13 @@
     sail npm run dev
     
 
-<h4>Editar archivo hot de carpeta public:</h4>
+<h4>Edita archivo hot de carpeta public:</h4>
 
     
     de'http://0.0.0.0:5173' a 'http://localhost:5173'
 
 
-<h4>Finalmente <a href="http://localhost" >Abrir localhost</a></h4>
+<h4>Finalmente <a href="http://localhost" >Abre localhost</a></h4>
 
     
     
