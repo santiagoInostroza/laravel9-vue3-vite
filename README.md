@@ -4,14 +4,20 @@
 
 <h2>Paso a paso de la instalación del proyecto</h2>
 
-<h3>Clonar proyecto(SSH)</h3>
+<p>Abre la terminal en la carpeta donde guardaras tu proyecto y copia los siguientes comandos</p>
+<p>debes tener Git instalado</p>
+
+<h4>Clonar proyecto(SSH)</h4>
 
     git clone git@github.com:santiagoInostroza/laravel9-vue3-vite.git
     
-o HTTPS
+<h4>o HTTPS</h4>
 
-    
      https://github.com/santiagoInostroza/laravel9-vue3-vite.git
+
+<h4>ingresar a la carpeta</h4>
+
+    cd laravel9-vue3-vite/ 
 
 
 crear archivo .env
