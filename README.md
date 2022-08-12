@@ -35,13 +35,13 @@
     code .
 
 
-copiar archivo .env
+<h4>copiar archivo .env</h4>
 
 
     cp .env.example .env
     
 
-Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:
+<h4>Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:</h4>
 
     docker run --rm \
     -u "$(id -u):$(id -g)" \
