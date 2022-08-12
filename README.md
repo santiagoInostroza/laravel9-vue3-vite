@@ -11,7 +11,7 @@
 <p>Abre la terminal en la carpeta donde guardaras tu proyecto y copia los siguientes comandos</p>
 <p>debes tener Git instalado</p>
 
-
+<br>
 <h4>Clonar proyecto(SSH)</h4>
 
 
@@ -66,12 +66,12 @@
     
 
 <h4>Editar archivo hot de carpeta public:</h4>
-    
+
     
     de'http://0.0.0.0:5173' a 'http://localhost:5173'
 
 
-</h4>Abrir localhost</h4>
+<h4>Abrir localhost</h4>
 
 
     'http://localhost'
