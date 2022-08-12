@@ -1,28 +1,45 @@
 <h1>Laravel 9 Vue 3 Vite</h1>
 
+
+
 <p>Este proyecto contiene las configuraciones iniciales para que puedas empezar tu aplicación</p>
 
+
 <h2>Paso a paso de la instalación del proyecto</h2>
+
 
 <p>Abre la terminal en la carpeta donde guardaras tu proyecto y copia los siguientes comandos</p>
 <p>debes tener Git instalado</p>
 
+
 <h4>Clonar proyecto(SSH)</h4>
+
 
     git clone git@github.com:santiagoInostroza/laravel9-vue3-vite.git
     
+    
 <h4>o HTTPS</h4>
+
 
      https://github.com/santiagoInostroza/laravel9-vue3-vite.git
 
+
 <h4>ingresar a la carpeta</h4>
 
+
     cd laravel9-vue3-vite/ 
+    
+    
+<h4>Abre vs code</h4>
+
+    code .
 
 
 copiar archivo .env
 
+
     cp .env.example .env
+    
 
 Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:
 
@@ -33,7 +50,9 @@ Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para 
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
     
+    
 Ejecutar los siguientes comandos
+
 
     sail npm install
     
@@ -46,9 +65,12 @@ Ejecutar los siguientes comandos
 
 Editar archivo hot de carpeta public:
     
+    
     de'http://0.0.0.0:5173' a 'http://localhost:5173'
 
+
 Abrir localhost
+
 
     'http://localhost:5173'
     
