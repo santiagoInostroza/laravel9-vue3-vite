@@ -3,6 +3,7 @@
 
 
 <p>Este proyecto contiene las configuraciones iniciales para que puedas empezar tu aplicación</p>
+<p>Con la magía de docker no tendrás que preocuparte de versiones ni instalaciones</p>
 
 <br>
 
@@ -43,7 +44,7 @@
 
     code .
     
-<h4>Asegurate que docker este corriendo y de preferencia no hayan contenedores cargados</h4>
+<h4>Asegurate que docker este corriendo y de preferencia no hayan contenedores cargados.</h4>
 <h4>Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:</h4>
 
     docker run --rm \
